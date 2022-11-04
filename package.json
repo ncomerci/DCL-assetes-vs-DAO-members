@@ -1,0 +1,20 @@
+{
+  "name": "holders",
+  "version": "1.0.0",
+  "description": "MANA & LAND holders",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bignumber.js": "^5.0.0",
+    "@types/node-fetch": "^2.6.2",
+    "big-number": "^2.0.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
