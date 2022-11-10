@@ -13,7 +13,13 @@ The data should be transformed to a JSON via https://csvjson.com/csv2json and th
 }
 ```
 
+A `.env` file is needed with the var: 
+```
+GH_TOKEN=<<GITHUB ACCESS TOKEN>>
+```
+
 1) Save the files into a folder called `data` in the root directory
 2) Run `npm install` command
 3) Run `npx ts-node manaFetch.ts` to get the data about MANA holders
 4) Run `npx ts-node calculate.ts` to do the calculation
+5) Run `npx ts-node delegateAnalysis.ts` to analyse circulating VP
