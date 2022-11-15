@@ -25,7 +25,7 @@ async function fetchManaHolders(url: string, first?: number) {
   first = first || 1000
   const query = `
   query get($first: Int!, $id: String!) {
-    accounts(first: $first, skip: $skip, orderBy: "id", orderDirection: asc, where: { id_gt: $id }) {
+    accounts(first: $first, skip: $skip, orderBy: "id", orderDirection: asc, where: { id_gt: $id, mana_gt: 0 }) {
       id mana
     }
   }
